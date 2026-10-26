@@ -1,0 +1,45 @@
+{
+  "name": "gym-backend",
+  "version": "1.0.0",
+  "description": "Gym Management Backend",
+  "private": true,
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "gym",
+    "backend",
+    "express",
+    "supabase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.0",
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.21",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.6.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5",
+    "pdfkit": "^0.20.1",
+    "twilio": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
